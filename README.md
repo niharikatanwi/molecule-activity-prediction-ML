@@ -1,2 +1,8 @@
 # molecule-activity-prediction-
 This project uses machine learning to predict whether a small molecule is active or inactive against a protein target. Using the inbuilt Breast Cancer dataset, the system preprocesses the data, trains models, evaluates accuracy, and provides fast, reliable activity predictions.
+
+This project focuses on predicting whether a small molecule (drug-like compound) will be active or inactive against a specific protein target using machine learning techniques. For this purpose, we use the inbuilt Breast Cancer dataset available in machine learning libraries such as Scikit-learn. The dataset contains features that represent measurable properties of molecules or cells, and a label indicating whether they lead to an active or inactive outcome.
+
+The goal of the project is to build a classification model that can learn patterns from the data and accurately classify new compounds as either active (effective) or inactive (not effective). Machine learning algorithms such as Logistic Regression, Decision Tree, Random Forest, or Support Vector Machine can be applied to train and evaluate the model.
+
+This prediction task is important in drug discovery because identifying active molecules early saves time, reduces cost, and speeds up the development of effective breast-cancer-targeting drugs. The project includes data preprocessing, feature selection, model training, performance evaluation, and visualization of the results.
